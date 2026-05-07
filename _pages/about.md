@@ -26,6 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+Miao Rong Lab is based at the School of Mechatronic Engineering and Automation, Shanghai University.
+
 荣淼，博士，上海大学机电工程与自动化学院讲师、硕士生导师。课题组围绕复杂动态环境中的智能优化与控制问题开展研究，重点关注智能优化理论与算法、多目标优化算法、数据驱动优化算法及其在能源系统、智能控制和工业信息化中的应用。
 
 ## 研究方向
