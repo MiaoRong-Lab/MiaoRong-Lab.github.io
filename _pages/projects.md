@@ -1,65 +1,19 @@
 ---
 layout: page
-title: projects
+title: 研究方向
 permalink: /projects/
-description: A growing collection of your cool projects.
-nav: true
-nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+description: 课题组研究方向与项目。
+nav: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+## 智能优化与控制
 
-{% else %}
+面向复杂动态环境中的优化与控制问题，研究可解释、鲁棒且可迁移的智能优化方法。
 
-<!-- Display projects without categories -->
+## 动态多目标优化
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+关注目标、约束和环境随时间变化的多目标优化问题，探索预测、协同进化与环境变化响应机制。
 
-  <!-- Generate cards for each project -->
+## 数据驱动方法
 
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+结合数据驱动建模与理论引导方法，服务复杂系统优化、智能制造调度和工程控制应用。

@@ -1,9 +1,35 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"CAIS":
+  url: https://link.springer.com/journal/40747
+  color: "#2f6f4e"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"C&D":
+  url: https://kzyjc.alljournals.cn/
+  color: "#6f5b2f"
 
-"Vision":
-  color: "#009f36"
+"ESWA":
+  url: https://www.sciencedirect.com/journal/expert-systems-with-applications
+  color: "#8f3f2a"
+
+"IJCAS":
+  url: https://link.springer.com/journal/12555
+  color: "#3f6f8f"
+
+"INS":
+  url: https://www.sciencedirect.com/journal/information-sciences
+  color: "#4f6f2f"
+
+"ISA":
+  url: https://www.sciencedirect.com/journal/isa-transactions
+  color: "#6f2f4f"
+
+"TEVC":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4235
+  color: "#0f5b8f"
+
+"TII":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9424
+  color: "#2f4f8f"
+
+"TCYB":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036
+  color: "#8a4f0f"
