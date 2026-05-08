@@ -9,6 +9,8 @@
 $red-color: #ff3636 !default;
 $red-color-dark: #b71c1c !default;
 $orange-color: #f29105 !default;
+$deep-blue-color: #003366 !default;
+$deep-blue-color-light: #8fbce6 !default;
 $blue-color: #0076df !default;
 $blue-color-dark: #00369f !default;
 $cyan-color: #2698ba !default;
@@ -34,7 +36,7 @@ $black-color: #000000 !default;
 
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
+$code-bg-color-light: rgba($deep-blue-color, 0.06);
 $code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location
@@ -42,8 +44,8 @@ $fa-font-path: "../webfonts";
 
 // Typography
 $font-family-sans-serif:
-  "Noto Sans SC", "Source Han Sans SC", "Microsoft YaHei UI", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Segoe UI",
-  sans-serif !default;
+  "Inter", "Helvetica Neue", Arial, "Noto Sans SC", "Source Han Sans SC", "Microsoft YaHei UI", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB",
+  "WenQuanYi Micro Hei", sans-serif !default;
 $font-family-monospace: "SFMono-Regular", Consolas, "Liberation Mono", "Courier New", monospace !default;
 
 // Back To Top button config
