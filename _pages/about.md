@@ -40,13 +40,12 @@ Miao Rong Lab is based at the School of Mechatronic Engineering and Automation, 
 ## 科研项目
 
 - 主持国家自然科学基金青年项目。
-- 主持上海市计算机软件技术重点实验室开放课题等科研项目。
 
 ## 教学与服务
 
 - 承担“自动控制原理”等课程教学工作。
 - 中国人工智能学会会员、IEEE 计算智能学会会员。
-- 担任 Complex & Intelligent Systems、Information Sciences、Swarm and Evolutionary Computation 等期刊审稿人。
+- 担任 IEEE Transactions on Cybernetics、IEEE Transactions on Evolutionary Computation、IEEE Transactions on Industrial Informatics、Complex & Intelligent Systems、Information Sciences、Swarm and Evolutionary Computation 等期刊审稿人。
 
 ## 招生与合作
 
