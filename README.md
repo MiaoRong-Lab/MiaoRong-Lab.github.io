@@ -44,7 +44,3 @@ GitHub Pages 设置中保持：
 - Source: `Deploy from a branch`
 - Branch: `gh-pages`
 - Folder: `/root`
-
-## 内容原则
-
-论文信息优先保留题名、作者、期刊、年份、卷期页码和 DOI 等稳定信息。影响因子、分区、检索等级等指标会随年份和数据库口径变化，默认不写死在主页中。
