@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-成员",
+          title: "成员",
+          description: "荣淼课题组成员与联系信息。",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/people/";
+          },
         },{id: "nav-新闻",
           title: "新闻",
           description: "",
