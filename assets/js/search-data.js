@@ -30,8 +30,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news/";
           },
-        },{id: "news-课题组网站第一版上线-后续将持续补充成员-项目-论文资料与招生信息",
-          title: '课题组网站第一版上线，后续将持续补充成员、项目、论文资料与招生信息。',
+        },{id: "news-课题组网站第一版上线",
+          title: '课题组网站第一版上线。',
           description: "",
           section: "News",},{
         id: 'social-email',
