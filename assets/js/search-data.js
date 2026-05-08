@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-成员",
           title: "成员",
-          description: "荣淼课题组成员与联系信息。",
+          description: "荣淼课题组成员。",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
@@ -30,8 +30,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news/";
           },
-        },{id: "news-课题组网站第一版上线",
-          title: '课题组网站第一版上线。',
+        },{id: "news-our-website-is-launched",
+          title: 'Our website is launched!',
           description: "",
           section: "News",},{
         id: 'social-email',
