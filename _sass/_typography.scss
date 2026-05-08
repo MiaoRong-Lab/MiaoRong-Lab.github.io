@@ -27,7 +27,7 @@ table {
   td,
   th {
     font-size: 1rem;
-    line-height: 1.6;
+    line-height: v.$global-line-height;
     padding: 1px 1rem 1px 0;
   }
 

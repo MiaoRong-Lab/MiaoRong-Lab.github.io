@@ -6,5 +6,3 @@ nav: false
 pagination:
   enabled: false
 ---
-
-当前站点以首页、论文和课题组新闻为主。

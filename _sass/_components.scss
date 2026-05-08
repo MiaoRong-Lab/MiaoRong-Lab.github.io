@@ -57,6 +57,93 @@ ul.task-list input[type="checkbox"] {
 
 // Homepage research interests
 
+.about-page {
+  .about-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(220px, 30%);
+    gap: clamp(2rem, 5vw, 4.5rem);
+    align-items: center;
+    margin: 1.5rem 0 3.75rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  .about-kicker {
+    margin-bottom: 0.75rem;
+    color: var(--global-text-color-light);
+    font-size: 0.86rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .post-title {
+    margin-bottom: 0.55rem;
+    color: var(--global-theme-color);
+    font-size: clamp(2rem, 4.8vw, 3.7rem);
+    line-height: 1.05;
+    letter-spacing: -0.045em;
+  }
+
+  .desc {
+    margin-bottom: 1.35rem;
+    color: var(--global-text-color-light);
+    font-size: 1rem;
+  }
+
+  .about-hero-bio {
+    max-width: 46rem;
+    font-size: 1.03rem;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  .about-hero-profile {
+    justify-self: end;
+    width: 100%;
+
+    img {
+      width: 100%;
+      border-radius: 1.25rem;
+      box-shadow: 0 18px 50px rgba(28, 40, 51, 0.12);
+    }
+
+    .more-info {
+      margin-top: 0.9rem;
+      padding: 0.9rem 1rem;
+      border: 1px solid var(--global-divider-color);
+      border-radius: 0.95rem;
+      background: var(--global-card-bg-color);
+      font-size: 0.9rem;
+      line-height: 1.55;
+
+      p {
+        margin: 0 0 0.25rem;
+      }
+
+      p:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .about-content > h2,
+  .about-content > .clearfix > h2 {
+    margin-top: 2.25rem;
+    margin-bottom: 0.75rem;
+    color: var(--global-theme-color);
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  .about-content > h2:first-of-type,
+  .about-content > .clearfix > h2:first-of-type {
+    margin-top: 2rem;
+  }
+}
+
 .research-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
@@ -93,7 +180,116 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+@media (max-width: 768px) {
+  .about-page {
+    .about-hero {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+      margin-top: 0.75rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .about-hero-profile {
+      justify-self: start;
+      max-width: 18rem;
+    }
+  }
+}
+
 // People cards
+
+.post article > h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.85rem;
+  color: var(--global-theme-color);
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.people-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.25rem;
+  margin: 1.2rem 0 2rem;
+}
+
+.people-gallery-featured {
+  max-width: 240px;
+}
+
+.post article .gallery-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+  padding: 1.25rem 1rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 1.1rem;
+  background: var(--global-card-bg-color);
+  text-align: center;
+  box-shadow: 0 12px 32px rgba(28, 40, 51, 0.05);
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    border-color: rgba(37, 99, 235, 0.2);
+    box-shadow: 0 18px 42px rgba(28, 40, 51, 0.1);
+  }
+
+  .gallery-photo,
+  .gallery-avatar {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+    border-radius: 999px;
+  }
+
+  .gallery-photo {
+    object-fit: cover;
+    border: 1px solid var(--global-divider-color);
+    box-shadow: 0 10px 28px rgba(28, 40, 51, 0.12);
+  }
+
+  .gallery-avatar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--global-theme-color);
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.08), rgba(178, 34, 34, 0.08)), var(--global-code-bg-color);
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .gallery-meta {
+    margin-top: 0.25rem;
+    color: var(--global-text-color-light);
+    font-size: 0.86rem;
+  }
+
+  p {
+    margin: 0.8rem 0 0;
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+    line-height: 1.45;
+  }
+
+  .person-links {
+    justify-content: center;
+    margin-top: auto;
+    padding-top: 0.9rem;
+  }
+}
 
 .people-grid {
   display: grid;

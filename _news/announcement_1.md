@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-课题组网站第一版上线。
+Our website is launched!

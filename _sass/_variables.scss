@@ -9,8 +9,11 @@
 $red-color: #ff3636 !default;
 $red-color-dark: #b71c1c !default;
 $orange-color: #f29105 !default;
-$deep-blue-color: #003366 !default;
-$deep-blue-color-light: #8fbce6 !default;
+$midnight-blue-color: #1c2833 !default;
+$tech-blue-color: #2563eb !default;
+$shu-red-color: #b22222 !default;
+$deep-blue-color: $midnight-blue-color !default;
+$deep-blue-color-light: #a9bed0 !default;
 $blue-color: #0076df !default;
 $blue-color-dark: #00369f !default;
 $cyan-color: #2698ba !default;
@@ -33,6 +36,8 @@ $grey-900: #212529;
 
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
+$body-text-color: #2f3742 !default;
+$body-text-color-light: #64748b !default;
 
 // Theme colors
 
@@ -43,9 +48,22 @@ $code-bg-color-dark: #2c3237 !default;
 $fa-font-path: "../webfonts";
 
 // Typography
+$global-font-size: 16px !default;
+$global-line-height: 1.65 !default;
 $font-family-sans-serif:
-  "Inter", "Helvetica Neue", Arial, "Noto Sans SC", "Source Han Sans SC", "Microsoft YaHei UI", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB",
-  "WenQuanYi Micro Hei", sans-serif !default;
+  "Inter",
+  -apple-system,
+  BlinkMacSystemFont,
+  "Helvetica Neue",
+  Arial,
+  "Noto Sans SC",
+  "Source Han Sans SC",
+  "Microsoft YaHei UI",
+  "Microsoft YaHei",
+  "PingFang SC",
+  "Hiragino Sans GB",
+  "WenQuanYi Micro Hei",
+  sans-serif !default;
 $font-family-monospace: "SFMono-Regular", Consolas, "Liberation Mono", "Courier New", monospace !default;
 
 // Back To Top button config

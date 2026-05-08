@@ -7,7 +7,8 @@
 body {
   padding-bottom: 70px;
   font-family: v.$font-family-sans-serif;
-  line-height: 1.6;
+  font-size: v.$global-font-size;
+  line-height: v.$global-line-height;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
   text-rendering: optimizelegibility;

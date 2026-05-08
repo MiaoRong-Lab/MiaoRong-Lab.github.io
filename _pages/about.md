@@ -3,6 +3,8 @@ layout: about
 title: 首页
 permalink: /
 subtitle: 上海大学机电工程与自动化学院 · 讲师 · 硕士生导师
+hero_intro: >
+  荣淼，博士，上海大学机电工程与自动化学院讲师、硕士生导师。课题组围绕复杂动态环境中的智能优化与控制问题开展研究，关注优化理论、算法设计及其在能源系统、智能控制和工业信息化中的应用。
 profile:
   align: right
   image: rong.jpg
@@ -25,10 +27,6 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-
-Miao Rong Lab is based at the School of Mechatronic Engineering and Automation, Shanghai University. The group focuses on intelligent optimization and control methods for dynamic, data-driven, and industrial systems.
-
-荣淼，博士，上海大学机电工程与自动化学院讲师、硕士生导师。课题组围绕复杂动态环境中的智能优化与控制问题开展研究，关注优化理论、算法设计及其在能源系统、智能控制和工业信息化中的应用。
 
 ## 研究方向
 
@@ -59,7 +57,7 @@ Miao Rong Lab is based at the School of Mechatronic Engineering and Automation, 
 
 - 主持国家自然科学基金青年项目。
 
-## Professional Activities
+## 教学与服务
 
 - 承担“自动控制原理”等课程教学工作。
 - 中国人工智能学会会员、IEEE 计算智能学会会员；担任 IEEE Transactions on Cybernetics、IEEE Transactions on Evolutionary Computation、IEEE Transactions on Industrial Informatics、Complex & Intelligent Systems、Information Sciences、Swarm and Evolutionary Computation 等期刊审稿人。
