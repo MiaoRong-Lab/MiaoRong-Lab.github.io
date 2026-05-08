@@ -49,9 +49,10 @@ Miao Rong Lab is based at the School of Mechatronic Engineering and Automation, 
 
 ## 招生与合作
 
-欢迎对智能优化、多目标优化、数据驱动方法、能源系统优化与智能控制等方向感兴趣的本科生、研究生和合作伙伴联系。后续本页将继续补充课题组成员、项目进展、论文资料和招生信息。
+欢迎对智能优化、多目标优化、数据驱动方法、能源系统优化与智能控制等方向感兴趣的本科生、研究生和合作伙伴联系。后续本页将继续补充项目进展、论文资料和招生信息。
 
 ## 相关链接
 
 - [上海大学教师主页](https://auto.shu.edu.cn/info/1342/73251.htm)
 - [DBLP 论文索引](https://dblp.org/pid/163/2637.html)
+- [课题组成员](/people/)
