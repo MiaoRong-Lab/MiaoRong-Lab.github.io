@@ -1,28 +1,28 @@
 import { highlightSearchTerm } from "./highlight-search-term.js";
 
 document.addEventListener("DOMContentLoaded", function () {
+  const normalizeSearchTerm = (searchTerm) =>
+    decodeURIComponent(searchTerm || "")
+      .trim()
+      .toLowerCase()
+      .replace(/\s+/g, " ");
+
   // actual bibsearch logic
   const filterItems = (searchTerm) => {
+    searchTerm = normalizeSearchTerm(searchTerm);
     document.querySelectorAll(".bibliography, .unloaded").forEach((element) => element.classList.remove("unloaded"));
 
-    // highlight-search-term
+    // Highlight when possible, but use normalized text for filtering so author names
+    // still match when the template inserts line breaks between first/last names.
     if (CSS.highlights) {
-      const nonMatchingElements = highlightSearchTerm({ search: searchTerm, selector: ".bibliography > li" });
-      if (nonMatchingElements == null) {
-        return;
-      }
-      nonMatchingElements.forEach((element) => {
-        element.classList.add("unloaded");
-      });
-    } else {
-      // Simply add unloaded class to all non-matching items if Browser does not support CSS highlights
-      document.querySelectorAll(".bibliography > li").forEach((element, index) => {
-        const text = element.innerText.toLowerCase();
-        if (text.indexOf(searchTerm) == -1) {
-          element.classList.add("unloaded");
-        }
-      });
+      highlightSearchTerm({ search: searchTerm, selector: ".bibliography > li" });
     }
+    document.querySelectorAll(".bibliography > li").forEach((element) => {
+      const text = normalizeSearchTerm(element.textContent);
+      if (text.indexOf(searchTerm) == -1) {
+        element.classList.add("unloaded");
+      }
+    });
 
     document.querySelectorAll("h2.bibliography").forEach(function (element) {
       let iterator = element.nextElementSibling; // get next sibling element after h2, which can be h3 or ol
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   const updateInputField = () => {
-    const hashValue = decodeURIComponent(window.location.hash.substring(1)); // Remove the '#' character
+    const hashValue = decodeURIComponent(window.location.hash.substring(1)).trim(); // Remove the '#' character
     document.getElementById("bibsearch").value = hashValue;
     filterItems(hashValue);
   };
@@ -60,8 +60,8 @@ document.addEventListener("DOMContentLoaded", function () {
   let timeoutId;
   document.getElementById("bibsearch").addEventListener("input", function () {
     clearTimeout(timeoutId); // Clear the previous timeout
-    const searchTerm = this.value.toLowerCase();
-    timeoutId = setTimeout(filterItems(searchTerm), 300);
+    const searchTerm = normalizeSearchTerm(this.value);
+    timeoutId = setTimeout(() => filterItems(searchTerm), 300);
   });
 
   window.addEventListener("hashchange", updateInputField); // Update the filter when the hash changes

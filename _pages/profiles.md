@@ -31,7 +31,7 @@ nav_order: 2
     <div class="gallery-meta">Graduate study · 2021–2024</div>
     <p>Multi-objective particle swarm optimization.</p>
     <div class="person-links">
-      <a href="{{ '/publications/#ci2024double' | relative_url }}">Papers</a>
+      <a href="{{ '/publications/#慈雨' | relative_url }}">Papers</a>
     </div>
   </article>
   <article class="gallery-card">
@@ -40,7 +40,7 @@ nav_order: 2
     <div class="gallery-meta">Graduate study · 2022–2025</div>
     <p>Dynamic constrained multi-objective optimization.</p>
     <div class="person-links">
-      <a href="{{ '/publications/#gong2025prediction' | relative_url }}">Papers</a>
+      <a href="{{ '/publications/#Na%20Hu' | relative_url }}">Papers</a>
       <a href="https://github.com/MiaoRong-Lab/PWDCMO">Code</a>
     </div>
   </article>
@@ -50,7 +50,7 @@ nav_order: 2
     <div class="gallery-meta">Graduate study · 2023–2026</div>
     <p>Dynamic optimization for integrated energy systems.</p>
     <div class="person-links">
-      <a href="{{ '/publications/#zhang2026dynamic' | relative_url }}">Papers</a>
+      <a href="{{ '/publications/#Chi%20Zhang' | relative_url }}">Papers</a>
       <a href="https://github.com/MiaoRong-Lab/FVE">Code</a>
     </div>
   </article>
@@ -60,7 +60,7 @@ nav_order: 2
     <div class="gallery-meta">Graduate study · 2024–2027</div>
     <p>Dynamic constrained many-objective optimization.</p>
     <div class="person-links">
-      <a href="{{ '/publications/#rong2026qlearning' | relative_url }}">Papers</a>
+      <a href="{{ '/publications/#Yunjie%20Wang' | relative_url }}">Papers</a>
       <a href="https://github.com/MiaoRong-Lab/QPMaOEA">Code</a>
     </div>
   </article>
@@ -70,7 +70,7 @@ nav_order: 2
     <div class="gallery-meta">Graduate study · 2025–2028</div>
     <p>Federated learning for dynamic data streams.</p>
     <div class="person-links">
-      <a href="{{ '/publications/#xiong2026adaptivestreamfl' | relative_url }}">Papers</a>
+      <a href="{{ '/publications/#Tai%20Xiong' | relative_url }}">Papers</a>
       <a href="https://github.com/MiaoRong-Lab/AdaptiveStreamFL">Code</a>
     </div>
   </article>
