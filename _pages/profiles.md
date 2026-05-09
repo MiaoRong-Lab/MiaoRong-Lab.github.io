@@ -28,7 +28,7 @@ nav_order: 2
   <article class="gallery-card">
     <div class="gallery-avatar">CY</div>
     <h3>慈雨 / Ci Yu</h3>
-    <div class="gallery-meta">Class of 2021</div>
+    <div class="gallery-meta">Graduate study · 2021–2024</div>
     <p>Multi-objective particle swarm optimization.</p>
     <div class="person-links">
       <a href="{{ '/publications/#ci2024double' | relative_url }}">Papers</a>
@@ -37,7 +37,7 @@ nav_order: 2
   <article class="gallery-card">
     <div class="gallery-avatar">NH</div>
     <h3>胡娜 / Na Hu</h3>
-    <div class="gallery-meta">Class of 2022</div>
+    <div class="gallery-meta">Graduate study · 2022–2025</div>
     <p>Dynamic constrained multi-objective optimization.</p>
     <div class="person-links">
       <a href="{{ '/publications/#gong2025prediction' | relative_url }}">Papers</a>
@@ -47,7 +47,7 @@ nav_order: 2
   <article class="gallery-card">
     <div class="gallery-avatar">CZ</div>
     <h3>张弛 / Chi Zhang</h3>
-    <div class="gallery-meta">Class of 2023</div>
+    <div class="gallery-meta">Graduate study · 2023–2026</div>
     <p>Dynamic optimization for integrated energy systems.</p>
     <div class="person-links">
       <a href="{{ '/publications/#zhang2026dynamic' | relative_url }}">Papers</a>
@@ -57,7 +57,7 @@ nav_order: 2
   <article class="gallery-card">
     <div class="gallery-avatar">WYJ</div>
     <h3>王蕴杰 / Yunjie Wang</h3>
-    <div class="gallery-meta">Class of 2024</div>
+    <div class="gallery-meta">Graduate study · 2024–2027</div>
     <p>Dynamic constrained many-objective optimization.</p>
     <div class="person-links">
       <a href="{{ '/publications/#rong2026qlearning' | relative_url }}">Papers</a>
@@ -67,7 +67,7 @@ nav_order: 2
   <article class="gallery-card">
     <div class="gallery-avatar">TX</div>
     <h3>熊泰 / Tai Xiong</h3>
-    <div class="gallery-meta">Class of 2025</div>
+    <div class="gallery-meta">Graduate study · 2025–2028</div>
     <p>Federated learning for dynamic data streams.</p>
     <div class="person-links">
       <a href="{{ '/publications/#xiong2026adaptivestreamfl' | relative_url }}">Papers</a>
