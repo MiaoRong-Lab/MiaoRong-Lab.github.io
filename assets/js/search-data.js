@@ -30,8 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news/";
           },
+        },{id: "nav-代码",
+          title: "代码",
+          description: "代码、数据和复现实验材料。",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
+          },
         },{id: "news-our-website-is-launched",
           title: 'Our website is launched!',
+          description: "",
+          section: "News",},{id: "news-research-code-repositories-are-now-available",
+          title: 'Research code repositories are now available.',
           description: "",
           section: "News",},{
         id: 'social-email',
