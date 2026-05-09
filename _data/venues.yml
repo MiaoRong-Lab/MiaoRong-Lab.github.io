@@ -2,13 +2,41 @@
   url: https://link.springer.com/journal/40747
   color: "#2f6f4e"
 
+"ACCESS":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639
+  color: "#4f6f8f"
+
+"ASIASIM":
+  url: https://link.springer.com/conference/asiasim
+  color: "#6f5b2f"
+
+"ASOC":
+  url: https://www.sciencedirect.com/journal/applied-soft-computing
+  color: "#0f766e"
+
 "C&D":
   url: https://kzyjc.alljournals.cn/
   color: "#6f5b2f"
 
+"CSCWD":
+  url: https://ieeexplore.ieee.org/xpl/conhome/1000667/all-proceedings
+  color: "#2f4f8f"
+
 "ESWA":
   url: https://www.sciencedirect.com/journal/expert-systems-with-applications
   color: "#8f3f2a"
+
+"ICCAIS":
+  url: https://ieeexplore.ieee.org/xpl/conhome/1800544/all-proceedings
+  color: "#3f6f8f"
+
+"ICIC":
+  url: https://link.springer.com/conference/icic
+  color: "#3f6f8f"
+
+"ICSI":
+  url: https://link.springer.com/conference/icsi
+  color: "#3f6f8f"
 
 "IJCAS":
   url: https://link.springer.com/journal/12555
@@ -22,6 +50,14 @@
   url: https://www.sciencedirect.com/journal/isa-transactions
   color: "#6f2f4f"
 
+"JCP":
+  url: https://www.sciencedirect.com/journal/journal-of-computational-physics
+  color: "#2f6f4e"
+
+"KBS":
+  url: https://www.sciencedirect.com/journal/knowledge-based-systems
+  color: "#0f766e"
+
 "TEVC":
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4235
   color: "#0f5b8f"
@@ -32,4 +68,8 @@
 
 "TCYB":
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036
+  color: "#8a4f0f"
+
+"TCBB":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8857
   color: "#8a4f0f"
