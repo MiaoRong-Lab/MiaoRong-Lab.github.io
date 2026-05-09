@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-论文",
           title: "论文",
-          description: "代表性论文与研究成果，按近期重点成果优先展示。",
+          description: "论文列表按年份倒序展示，可使用关键词筛选。",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
