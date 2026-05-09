@@ -57,7 +57,10 @@ nav_order: 2
     <div class="gallery-avatar">WYJ</div>
     <h3>王蕴杰 / Yunjie Wang</h3>
     <div class="gallery-meta">Class of 2024</div>
-    <p>Intelligent optimization and control.</p>
+    <p>Dynamic constrained many-objective optimization.</p>
+    <div class="person-links">
+      <a href="https://github.com/MiaoRong-Lab/QPMaOEA">QPMaOEA</a>
+    </div>
   </article>
   <article class="gallery-card">
     <div class="gallery-avatar">TX</div>

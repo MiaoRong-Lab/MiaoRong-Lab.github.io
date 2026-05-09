@@ -71,3 +71,4 @@ latest_posts:
 - [上海大学教师主页](https://auto.shu.edu.cn/info/1342/73251.htm)
 - [DBLP 论文索引](https://dblp.org/pid/163/2637.html)
 - [课题组成员](/people/)
+- [开源代码](/repositories/)
