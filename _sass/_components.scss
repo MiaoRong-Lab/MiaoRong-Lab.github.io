@@ -285,9 +285,27 @@ ul.task-list input[type="checkbox"] {
   }
 
   .person-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
     justify-content: center;
     margin-top: auto;
     padding-top: 0.9rem;
+
+    a {
+      border: 1px solid var(--global-divider-color);
+      border-radius: 999px;
+      padding: 0.2rem 0.6rem;
+      color: var(--global-theme-color);
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+
+      &:hover {
+        border-color: var(--global-theme-color);
+        text-decoration: none;
+      }
+    }
   }
 }
 

@@ -31,7 +31,7 @@ nav_order: 2
     <div class="gallery-meta">Class of 2021</div>
     <p>Multi-objective particle swarm optimization.</p>
     <div class="person-links">
-      <a href="https://sns.wanfangdata.com.cn/perio/kzyjc?issueNum=6&publishYear=2024&tabId=article">Paper</a>
+      <a href="{{ '/publications/#ci2024double' | relative_url }}">Papers</a>
     </div>
   </article>
   <article class="gallery-card">
@@ -40,8 +40,8 @@ nav_order: 2
     <div class="gallery-meta">Class of 2022</div>
     <p>Dynamic constrained multi-objective optimization.</p>
     <div class="person-links">
-      <a href="https://dblp.org/rec/journals/tec/GongRHWPY25">TEVC</a>
-      <a href="https://dblp.org/rec/journals/isci/HuZRGG24">INS</a>
+      <a href="{{ '/publications/#gong2025prediction' | relative_url }}">Papers</a>
+      <a href="https://github.com/MiaoRong-Lab/PWDCMO">Code</a>
     </div>
   </article>
   <article class="gallery-card">
@@ -50,7 +50,8 @@ nav_order: 2
     <div class="gallery-meta">Class of 2023</div>
     <p>Dynamic optimization for integrated energy systems.</p>
     <div class="person-links">
-      <a href="https://dblp.org/rec/journals/tii/ZhangRYPP26">TII</a>
+      <a href="{{ '/publications/#zhang2026dynamic' | relative_url }}">Papers</a>
+      <a href="https://github.com/MiaoRong-Lab/FVE">Code</a>
     </div>
   </article>
   <article class="gallery-card">
@@ -59,7 +60,8 @@ nav_order: 2
     <div class="gallery-meta">Class of 2024</div>
     <p>Dynamic constrained many-objective optimization.</p>
     <div class="person-links">
-      <a href="https://github.com/MiaoRong-Lab/QPMaOEA">QPMaOEA</a>
+      <a href="{{ '/publications/#rong2026qlearning' | relative_url }}">Papers</a>
+      <a href="https://github.com/MiaoRong-Lab/QPMaOEA">Code</a>
     </div>
   </article>
   <article class="gallery-card">
@@ -68,7 +70,8 @@ nav_order: 2
     <div class="gallery-meta">Class of 2025</div>
     <p>Federated learning for dynamic data streams.</p>
     <div class="person-links">
-      <a href="https://dblp.org/rec/journals/eswa/XiongZRGY26">ESWA</a>
+      <a href="{{ '/publications/#xiong2026adaptivestreamfl' | relative_url }}">Papers</a>
+      <a href="https://github.com/MiaoRong-Lab/AdaptiveStreamFL">Code</a>
     </div>
   </article>
 </div>
