@@ -9,6 +9,13 @@ nav_order: 4
 
 <div class="repo-gallery">
   <article class="repo-card">
+    <div class="repo-kicker">SCIS 2026 · MATLAB</div>
+    <h3>MLDCMOA_set1</h3>
+    <p>MATLAB implementation for a multiregional Lagrangian-dual-based algorithm for dynamic constrained multiobjective optimization.</p>
+    <a href="https://github.com/MiaoRong-Lab/MLDCMOA_set1">GitHub</a>
+  </article>
+
+  <article class="repo-card">
     <div class="repo-kicker">TII 2026 · Python</div>
     <h3>FVE</h3>
     <p>Code and data for dynamic multiobjective optimization in integrated coal mine energy systems with streaming constraints.</p>
