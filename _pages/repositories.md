@@ -9,6 +9,13 @@ nav_order: 4
 
 <div class="repo-gallery">
   <article class="repo-card">
+    <div class="repo-kicker">TEVC 2026 · MATLAB</div>
+    <h3>BCDCA</h3>
+    <p>PlatEMO-compatible MATLAB implementation of the Bounded Complementary Dual-Channel Algorithm for constrained multiobjective optimization.</p>
+    <a href="https://github.com/MiaoRong-Lab/BCDCA">GitHub</a>
+  </article>
+
+  <article class="repo-card">
     <div class="repo-kicker">SCIS 2026 · MATLAB</div>
     <h3>MLDCMOA_set1</h3>
     <p>MATLAB implementation for a multiregional Lagrangian-dual-based algorithm for dynamic constrained multiobjective optimization.</p>
